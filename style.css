@@ -65,7 +65,7 @@ nav ul li a{
 }
 header img{
     width: 900px;
-    margin-left: 250px;
+    margin-left: 190px;
     margin-right: 100px;
     margin-top: 40px;
 }
@@ -192,8 +192,6 @@ header img{
     border-radius: 10px;
     background-color: #FF900E;
     color: white;
-    margin-top: -30px;
-    margin-left: -120px;
 
 }
 .second-section-child-two-div .jhamella .span-no-one{
@@ -244,8 +242,8 @@ header img{
 }
 .fourth-section-child img{
     padding: 0 50px;
-    width: 100px;
-    height: 40px;
+    width: 70px;
+    height: 35px;
 }
 
 .fourth-section-child-one p{
@@ -259,7 +257,7 @@ header img{
 .fifth{
     margin: 40px;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 10px 8px;
     border: none;
 }
 
@@ -277,4 +275,96 @@ header img{
    align-items: center;
    color: gray;
    font-size: 13px;
+}
+
+
+
+
+@media only screen and (max-width: 688px) {
+    #header-first-div{
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #first-section-parent-div{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40px;
+    
+    }
+    .first-section-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    #second-section-parent-div{
+        display: block;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #third-section{
+        display: block;
+        margin: 10px 20px 40px 20px;
+        padding: 20px;
+    }
+
+    .fourth-section-parent{
+        margin: 40px 20px 40px 20px;
+    }
+    .fourth-section-child img{
+        padding: 0 20px;
+        width: 30px;
+        height: 15px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    #header-first-div{
+        width: 500px;
+        text-align: center;
+    }
+
+    #first-section-parent-div{
+        display: block;
+        margin-left: 65px;
+        margin-right: 65px;
+        margin-top: 60px;
+    
+    }
+    .first-section-image{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+
+    #second-section-parent-div{
+        display: block;
+        margin-top: 50px;
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    #third-section{
+        display: block;
+        margin: 10px 65px 50px 65px;
+        padding: 40px;
+    }
+
+    .fourth-section-parent{
+        margin: 50px 65px 50px 65px;
+    }
+
+    .fourth-section-child img{
+        padding: 0 40px;
+        width: 50px;
+        height: 25px;
+    }
 }
