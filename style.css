@@ -131,6 +131,7 @@ nav ul li a{
     align-items: center;
     margin: auto;
     margin-top: 70px;
+    position: relative;
 }
 
 .second-section-child-one-div{
@@ -187,18 +188,16 @@ nav ul li a{
     height: 100vh;
 }
 
-
 .jhamella{
     position: absolute;
-    top: 2080px;
-    left: 610px;
+    bottom: 10%;
+    left: 50%;
     width: 120px;
     height: 50px;
     padding: 10px;
     border-radius: 10px;
     background-color: #FF900E;
     color: white;
-
 }
 .jhamella .span-no-one{
     font-size: 25px;
